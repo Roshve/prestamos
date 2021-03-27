@@ -1,11 +1,9 @@
-import React from 'react';
+import React  from 'react';
 
-function Header(props){
+const Header = ({ titulo }) => (
+    <h1>{titulo}</h1>
+);
 
-    console.log(props);
 
-    return(
-        <h1>Hola Mundo</h1>
-    )
-}
+
 export default Header;
